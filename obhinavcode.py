@@ -65,7 +65,7 @@ st.markdown(
         <a href="#about-us">About Us</a>
         <a href="#how-to-use">How to Use</a>
         <a href="#contact-us">Contact Us</a>
-        <a href="#feedback">Feedback</a>
+
     </div>
     """,
     unsafe_allow_html=True,
@@ -182,14 +182,4 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# "Feedback" section
-st.markdown(
-    """
-    <section id="feedback">
-        <h2>Feedback</h2>
-        <p>Your feedback is valuable to us! Please let us know your thoughts about the Buildworks platform. Your input helps us improve our services.</p>
-        <p>Email your feedback to: feedback@Buildworks.com</p>
-    </section>
-    """,
-    unsafe_allow_html=True,
 )
